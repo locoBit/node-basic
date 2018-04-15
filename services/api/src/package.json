@@ -1,0 +1,10 @@
+{
+    "name": "basic",
+    "version": "0.0.1",
+    "description": "This is a base to build a great project",
+    "author": "locoBit",
+    "main": "server.js",
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }
