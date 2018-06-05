@@ -8,7 +8,7 @@ WORKDIR /var/lib/app
 
 # RUN chmod -R +x /home/docker/startup.* && npm install
 
-RUN yarn global add nodemon && yarn install
+RUN npm install -g nodemon && npm install
 
 EXPOSE 8080
 
