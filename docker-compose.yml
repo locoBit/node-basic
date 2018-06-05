@@ -29,4 +29,6 @@ services:
     ports:
       - "8080:8080"
     labels:
-      container_group: service    
+      container_group: service
+    volumes:
+      - ./services/api/src:/var/lib/app
